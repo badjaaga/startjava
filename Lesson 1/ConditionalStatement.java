@@ -1,6 +1,5 @@
 public class ConditionalStatement {
 	public static void main(String[] args) {
-
 		int age = 30;
 		if(age > 20) {
 			System.out.println("You are lucky");
@@ -25,7 +24,7 @@ public class ConditionalStatement {
 		char firstLetterOfName = 'M';
 		if(firstLetterOfName == 'M') {
 			System.out.println("The first letter of your name is M");
-		} else if(firstLetterOfTheName == 'I'){
+		} else if(firstLetterOfTheName == 'I') {
 			System.out.println("The first letter of your name is N");
 		} else {
 			System.out.println("The first letter of your name is not M and not N");
